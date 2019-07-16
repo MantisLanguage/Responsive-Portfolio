@@ -219,3 +219,45 @@ body {
     height: 200px;
     width: 140px;
 }  
+
+@media screen and (max-width: 980px) {
+
+    width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+
+  .main-section {
+    margin-top: -25%;
+    width: 95%;
+margin-left: 2%;
+
+}
+
+@media screen and (max-width: 640px) {
+    header{
+position: static;
+}
+a#logo {
+    position: static;top;
+    width: 100%;
+}
+#masthead {
+    position: static;top;
+    display:inline-flex;
+}
+nav{
+    float: left;
+    margin-left: 21%;
+}
+    .main-section {
+        margin-top: -25%;
+        width: 95%;
+margin-left: 2%;
+    }
+
+    .auth-image{
+      width: 100%;
+
+}
+  }
