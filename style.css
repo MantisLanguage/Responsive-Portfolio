@@ -221,8 +221,19 @@ body {
 }  
 
 @media screen and (max-width: 980px) {
+#masthead {
+  margin-left: 5%;
+}
 
-    width: 70%;
+.main-section {
+  margin-left: 5%;
+}
+.main-section{
+  width: 70%;
+}
+nav {
+  margin-right: 7%;
+}
 }
 
 @media screen and (max-width: 768px) {
