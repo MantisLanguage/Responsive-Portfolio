@@ -108,6 +108,8 @@ body {
     background: #666666;
     border-top: 8px solid #4aaaa5;
     height: 50px;
+    width: 115%;
+    margin-left: -10%;
   }
   
   h3, h2 {
@@ -239,12 +241,11 @@ nav {
 @media screen and (max-width: 768px) {
 
   .main-section {
-    margin-top: -25%;
+   
     width: 95%;
 margin-left: 2%;
 
 }
-
 @media screen and (max-width: 640px) {
     header{
 position: static;
